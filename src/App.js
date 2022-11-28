@@ -2,6 +2,7 @@ import React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Header from './components/header';
+import Body from './components/body';
 
 const theme = {
   palette: {
@@ -17,6 +18,10 @@ const theme = {
       paper: '#363636',
     },
     divider: '#ffcb74',
+    text:{
+      primary: '#ffffff',
+      secondary: 'rgba(255, 255, 255, 0.7)',
+    }
   },
   typography: {
     fontFamily: 'Quicksand',
@@ -31,7 +36,7 @@ const theme = {
       fontSize: '1rem',
     },
     h6: {
-      fontWeight: 600,
+      fontWeight: 500,
     },
     h1: {
       fontWeight: 400,
@@ -50,6 +55,7 @@ function App() {
     <ThemeProvider theme={createTheme(theme)}>
       <CssBaseline enableColorScheme/>
       <Header />
+      <Body />
     </ThemeProvider>
   );
 }
