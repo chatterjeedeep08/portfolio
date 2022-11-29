@@ -4,6 +4,8 @@ import { Typography } from "@mui/material";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';
+import {FaReact,FaNodeJs,FaHtml5} from 'react-icons/fa';
+import {SiJavascript,SiMongodb,SiCss3,SiCplusplus} from 'react-icons/si';
 
 const labels = {
     0.5: 'Useless',
@@ -21,123 +23,189 @@ const labels = {
 
 function skills() {
   return (
-    <Card sx={{ minWidth: 275, margin:10 , marginTop:5}}>
+    <Card sx={{ minWidth: 275, margin:10 , marginTop:5, marginBottom:5}}>
         <CardContent>
             <Typography variant="h4">
-                My top skills are:
                 <span role="img" aria-label="man-technologist">👨‍💻</span>
+                My top skills are:
             </Typography>
             <br/>
-            <Grid container spacing={2}>
+            <Grid container spacing={3}>
                 {/*skill*/}
                 <Grid item xs={4}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Typography variant="h5"> React </Typography>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <FaReact size={30} color="#61dafb"/> 
+                            <Typography variant="h5">
+                           &nbsp;React </Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
                 <Grid item xs={8}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
                             <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[4.5]}</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
                 <Grid item xs={4}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Typography variant="h5"> React </Typography>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiJavascript size={30} color="#f7df1e"/>
+                            <Typography variant="h5">
+                           &nbsp;JavaScript </Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
                 <Grid item xs={8}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[4]}</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
                 <Grid item xs={4}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Typography variant="h5"> React </Typography>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <FaNodeJs size={30} color="#3c873a"/>
+                            <Typography variant="h5">
+                           &nbsp;NodeJS </Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
                 <Grid item xs={8}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[4]}</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
                 <Grid item xs={4}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Typography variant="h5"> React </Typography>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiMongodb size={30} color="#47a248"/> 
+                            <Typography variant="h5">
+                           &nbsp;MongoDB </Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
                 <Grid item xs={8}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={3.5} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[3.5]}</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
                 <Grid item xs={4}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Typography variant="h5"> React </Typography>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <FaHtml5 size={30} color="#e34f26"/>
+                            <Typography variant="h5">
+                           &nbsp;HTML </Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
                 <Grid item xs={8}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={5} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[5]}</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
                 <Grid item xs={4}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
-                            <Typography variant="h5"> React </Typography>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiCss3 size={30} color="#264de4"/> 
+                            <Typography variant="h5">
+                           &nbsp;CSS</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
                 <Grid item xs={8}>
-                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center"}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
                             <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[4.5]}</Typography>
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*========================================================================= */}
-                
+                {/*skill*/}
+                <Grid item xs={4}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiCplusplus size={30} color="#00599c"/>
+                            <Typography variant="h5">
+                           &nbsp;C++</Typography>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            <Typography variant="h5">&nbsp; &nbsp;{labels[4.5]}</Typography>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*========================================================================= */}
             </Grid>
         </CardContent>
     </Card>

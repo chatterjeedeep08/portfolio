@@ -8,6 +8,8 @@ function intro(){
         <Card sx={{ minWidth: 275, margin:10, marginBottom:5}}>
           <CardContent>
             {/* Name */}
+            <img src={process.env.PUBLIC_URL + '/profileArt.jpg'} alt="profile art" style={{width:"100%", height:"5%"}}/>
+            <img src={process.env.PUBLIC_URL + '/profile.png'} alt="profile" style={{width:"10%", height:"10%",}}/>
             <Typography variant="h2">
                 Hello! I'm Deepargh Chatterjee.
                 <span role="img" aria-label="waving-hand">👋</span> 
