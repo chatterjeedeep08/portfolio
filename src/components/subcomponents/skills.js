@@ -32,7 +32,7 @@ function skills() {
             <br/>
             <Grid container spacing={3}>
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -45,7 +45,7 @@ function skills() {
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -55,9 +55,30 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <FaReact size={30} color="#61dafb"/> 
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -70,7 +91,7 @@ function skills() {
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -80,9 +101,30 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiJavascript size={30} color="#f7df1e"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -95,7 +137,7 @@ function skills() {
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -105,13 +147,34 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
-                {/*========================================================================= */}
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
-                            <SiMongodb size={30} color="#47a248"/> 
+                            <FaNodeJs size={30} color="#3c873a"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*========================================================================= */}
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiMongodb size={30} color="#47a248"/>
                             <Typography variant="h5">
                            &nbsp;MongoDB </Typography>
                             </div>
@@ -120,7 +183,7 @@ function skills() {
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -130,22 +193,43 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
-                {/*========================================================================= */}
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
-                            <FaHtml5 size={30} color="#e34f26"/>
-                            <Typography variant="h5">
-                           &nbsp;HTML </Typography>
+                            <SiMongodb size={30} color="#47a248"/>
                             </div>
                         </CardContent>
                     </Card>
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={3.5} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*========================================================================= */}
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <FaHtml5 size={30} color="#e34c26"/>
+                            <Typography variant="h5">
+                           &nbsp;HTML 5</Typography>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -155,13 +239,34 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
-                {/*========================================================================= */}
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
-                            <SiCss3 size={30} color="#264de4"/> 
+                            <FaHtml5 size={30} color="#e34c26"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={5} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*========================================================================= */}
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiCss3 size={30} color="#264de4"/>
                             <Typography variant="h5">
                            &nbsp;CSS</Typography>
                             </div>
@@ -170,7 +275,7 @@ function skills() {
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -180,9 +285,30 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiCss3 size={30} color="#264de4"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
                 {/*========================================================================= */}
                 {/*skill*/}
-                <Grid item xs={4}>
+                <Grid item xs={4} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -195,7 +321,7 @@ function skills() {
                 </Grid>
                 {/*rating*/}
                 {/*Change rating value to adjust fluency of the skill*/}
-                <Grid item xs={8}>
+                <Grid item xs={8} sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                     <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
@@ -205,7 +331,29 @@ function skills() {
                         </CardContent>
                     </Card>
                 </Grid>
+                {/*skill*/}
+                <Grid item xs={4} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <SiCplusplus size={30} color="#00599c"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                {/*rating*/}
+                {/*Change rating value to adjust fluency of the skill*/}
+                <Grid item xs={8} sx={{display:{md:'none', sm:'inline'}}}>
+                    <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                        <CardContent>
+                            <div style={{display:"flex", justifyContent:"center"}}>
+                            <Rating name="read-only" value={4.5} precision={0.5} readOnly  size="large"/>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </Grid>
                 {/*========================================================================= */}
+                
             </Grid>
         </CardContent>
     </Card>
