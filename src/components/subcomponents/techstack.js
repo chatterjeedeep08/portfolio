@@ -18,7 +18,7 @@ function techstack() {
         <br/>
           <Grid container spacing={2}>
             {/*Tech Stack item */}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -29,8 +29,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaHtml5 size={30} color="#E34F26"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -41,8 +50,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiCss3 size={30} color="#264DE4"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -53,8 +71,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiJavascript size={30} color="#F7DF1E"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -65,8 +92,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiCplusplus size={30} color="#00599C"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -77,8 +113,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaReact size={30} color="#61dafb"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -89,8 +134,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiMongodb size={30} color="#47A248"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -101,8 +155,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiFirebase size={30} color="#FFCA28"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -113,8 +176,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaBootstrap size={30} color="#7952B3"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -125,8 +197,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaNodeJs size={30} color="#339933"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -137,8 +218,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaPython size={30} color="#3776AB"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -149,8 +239,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaJava size={30} color="#007396"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -161,8 +260,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiCsharp size={30} color="#239120"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -173,8 +281,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaUnity size={30} color="#000000"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -185,8 +302,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiBlender size={30} color="#F5792A"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -197,8 +323,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaFigma size={30} color="#F24E1E"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -209,8 +344,17 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <FaGithub size={30} color="#000000"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
@@ -221,14 +365,32 @@ function techstack() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiAdobexd size={30} color="#FF61F6"/>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
             {/*====================================================================================*/}
-            <Grid item xs={2}>
+            <Grid item lg={2} sx={{display:{lg:'inline', md:'none', sm:'none', xs:'none'}}}>
               <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
                 <CardContent>
                   <div style={{display:"flex", justifyContent:"center"}}>
                     <SiAdobephotoshop size={30} color="#31A8FF"/>
                     <Typography variant="h5">
                     &nbsp;Photoshop </Typography>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item md={3} sx={{display:{md:'inline', lg:'none'}}}>
+              <Card variant="outlined" sx={{display:"flex", justifyContent:"center", borderRadius:10}}>
+                <CardContent>
+                  <div style={{display:"flex", justifyContent:"center"}}>
+                    <SiAdobephotoshop size={30} color="#31A8FF"/>
                   </div>
                 </CardContent>
               </Card>
