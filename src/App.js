@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Header from './components/header';
 import Body from './components/body';
 
+
 const theme = {
   palette: {
     type: 'dark',
@@ -55,7 +56,7 @@ function App() {
     <ThemeProvider theme={createTheme(theme)}>
       <CssBaseline enableColorScheme/>
       <Header />
-      <Body />
+      <Body/>
     </ThemeProvider>
   );
 }

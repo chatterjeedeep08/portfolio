@@ -8,7 +8,7 @@ import Education from "./subcomponents/education";
 function body() {
   return (
     <>
-    <Intro />
+    <Intro/>
     <Skills/>
     <TechStack/>
     <Projects/>
