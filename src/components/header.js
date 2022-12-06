@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 function header() {
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Container maxWidth="full">
         <Toolbar disableGutters/>
       </Container>
     </AppBar>
