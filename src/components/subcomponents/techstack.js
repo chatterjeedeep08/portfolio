@@ -9,7 +9,7 @@ import {SiJavascript,SiMongodb,SiCss3,SiCplusplus,SiFirebase,SiCsharp,SiBlender,
 
 function techstack() {
   return (
-    <Card sx={{ minWidth: 275, margin:10, marginTop:5, marginBottom:5}}>
+    <Card sx={{ minWidth: 275, margin:5}}>
         <CardContent>
           <Typography variant="h4">
               <span role="img" aria-label="gear">⚙️</span>

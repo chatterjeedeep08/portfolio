@@ -23,7 +23,7 @@ const labels = {
 
 function skills() {
   return (
-    <Card sx={{ minWidth: 275, margin:10 , marginTop:5, marginBottom:5}}>
+    <Card sx={{ minWidth: 275, margin:5}}>
         <CardContent>
             <Typography variant="h4">
                 <span role="img" aria-label="man-technologist">👨‍💻</span>

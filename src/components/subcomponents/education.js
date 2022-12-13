@@ -34,7 +34,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 function education() {
   return (
-    <Card sx={{ minWidth: 275, margin:10 , marginTop:5, marginBottom:5}}>
+    <Card sx={{ minWidth: 275, margin:5}}>
       <CardContent>
           <Typography variant="h4">
               <span role="img" aria-label="graduation-cap">🎓</span>

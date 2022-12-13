@@ -3,12 +3,12 @@ import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
-import { FaCertificate } from "react-icons/fa";
+import { BsAwardFill } from "react-icons/bs";
 
 
 function certifications() {
   return (
-    <Card sx={{ minWidth: 275, margin:10, marginTop:5, marginBottom:5}}>
+    <Card sx={{ minWidth: 275, margin:5}}>
           <CardContent>
             <Typography variant="h4">
                 <span role="img" aria-label="sparkles">✨</span>
@@ -18,7 +18,7 @@ function certifications() {
             <List>
               <ListItem>
                 <ListItemIcon>
-                  <FaCertificate color="#ffcb74"/>
+                  <BsAwardFill color="#ffcb74"/>
                 </ListItemIcon>
                 <ListItemText 
                   primary="Microsoft Certified: Azure Data Fundamentals"
@@ -26,7 +26,7 @@ function certifications() {
               </ListItem>
               <ListItem>
                 <ListItemIcon>
-                  <FaCertificate color="#ffcb74"/>
+                  <BsAwardFill color="#ffcb74"/>
                 </ListItemIcon>
                 <ListItemText 
                   primary="Microsoft Certified: Azure Fundamentals"
@@ -34,7 +34,7 @@ function certifications() {
               </ListItem>
               <ListItem>
                 <ListItemIcon>
-                  <FaCertificate color="#ffcb74"/>
+                  <BsAwardFill color="#ffcb74"/>
                 </ListItemIcon>
                 <ListItemText 
                   primary="Google UX Design Professional Certificate"

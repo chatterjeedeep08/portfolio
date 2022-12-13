@@ -23,7 +23,7 @@ function projects() {
     //const [open6, setOpen6] = React.useState(false);
 
   return (
-    <Card sx={{ minWidth: 275, margin:10 , marginTop:5, marginBottom:5}}>
+    <Card sx={{ minWidth: 275, margin:5}}>
         <CardContent>
             <Typography variant="h4">
                 <span role="img" aria-label="robot">🤖</span>
