@@ -4,6 +4,7 @@ import Skills from "./subcomponents/skills";
 import TechStack from "./subcomponents/techstack";
 import Projects from "./subcomponents/projects";
 import Education from "./subcomponents/education";
+import Certifications from './subcomponents/certifications';
 
 function body() {
   return (
@@ -13,6 +14,7 @@ function body() {
     <TechStack/>
     <Projects/>
     <Education/>
+    <Certifications/>
     </>
   );
 }
