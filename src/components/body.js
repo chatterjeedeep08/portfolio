@@ -12,6 +12,7 @@ function body() {
     <Skills/>
     <TechStack/>
     <Projects/>
+    <Education/>
     </>
   );
 }
