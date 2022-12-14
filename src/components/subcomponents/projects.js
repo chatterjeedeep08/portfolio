@@ -302,7 +302,7 @@ function projects() {
                         <CardContent>
                             <div style={{display:"flex", justifyContent:"center"}}>
                                 {/*Enter project name here*/}
-                                <Typography variant="h4">Questly&nbsp;</Typography>
+                                <Typography variant="h4">Planet AR-cadia&nbsp;</Typography>
                                 <Fab variant="extended" color="primary" aria-label="add" onClick={()=>setOpen4(true)}>
                                     <ArrowForwardIosIcon />
                                 </Fab>
