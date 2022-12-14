@@ -33,7 +33,7 @@ function intro(){
             {/* About */}
             <Typography variant="h5">
                 I'm a Full-stack developer and a UI/UX designer. And I'm specially good at Frontend Development.
-                I'm currently pursuing my B.Tech in Computer Science and Engineering from 
+                I'm currently pursuing my B.Tech in Computer Science and Engineering from &nbsp; 
                 <a href="https://vitbhopal.ac.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color:"#ffcb74"}}>VIT Bhopal University</a>.
                 <span role="img" aria-label="smiling-face">😊</span>
                 <br/><br/>
