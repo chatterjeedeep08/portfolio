@@ -17,6 +17,8 @@ accordingly.
 For files like project reports, move the files in the "files" folder in public folder and edit the projects section
 accordingly.
 
+For changing theme, colors or fonts use the tool below and replace the code in "App.js".
+
 
 # To get started:
 
@@ -34,10 +36,11 @@ Photo by <a href="https://unsplash.com/@vklemen?utm_source=unsplash&utm_medium=r
 
 Icons from: https://react-icons.github.io/react-icons
 
+Theme made using: https://bareynol.github.io/mui-theme-creator
+
 Good luck👍
 
 For any queries/suggestions contact: chatterjeedeep2018@gmail.com
-
 
 ===============================================================================================================================
 
