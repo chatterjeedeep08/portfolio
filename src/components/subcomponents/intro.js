@@ -23,24 +23,21 @@ function intro(){
             {/* Name */}
             <Typography variant="h2" sx={{display:{md:'inline', sm:'none', xs:'none'}}}>
                 Hello! I'm Deepargh Chatterjee.
-                <span role="img" aria-label="waving-hand">👋</span> 
             </Typography>
             <Typography variant="h3" sx={{display:{md:'none',sm:'inline'}}}>
                 Hello! I'm Deepargh Chatterjee.
-                <span role="img" aria-label="waving-hand">👋</span> 
             </Typography>
             <br/><br/>
             {/* About */}
             <Typography variant="h5">
                 I'm a Full-stack developer and a UI/UX designer. And I'm specially good at Frontend Development.
                 I'm currently pursuing my B.Tech in Computer Science and Engineering from &nbsp; 
-                <a href="https://vitbhopal.ac.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color:"#ffcb74"}}>VIT Bhopal University</a>.
-                <span role="img" aria-label="smiling-face">😊</span>
+                <a href="https://vitbhopal.ac.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color:"#ffcb74"}}>VIT Bhopal University</a>
                 <br/><br/>
                 I'm a self-taught developer and designer. I'm always eager to learn new things and I'm always ready to take up new challenges.
                 I love to code and design. I'm a very passionate person and I love to work on new projects.
                 <br/><br/>
-                I'm a very friendly person and I love to make new friends. I'm always ready to connect with new people. Here are my social media handles:
+                I'm always ready to connect with new people. Here are my social media handles:
                 <br/><br/>
                 {/* Social Media Handles */}
                 <a href="https://www.linkedin.com/in/deepargh-chatterjee-086662198/" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color:"#ffcb74"}}>
