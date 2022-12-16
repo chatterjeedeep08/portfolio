@@ -1,3 +1,44 @@
+## Portfolio Template
+
+This project is intended to be used as template for digital portfolio websites for any student or individual.
+This project is made with responsiveness in mind hence, its compatible with any device or resolution.
+
+Fork this project to get started.
+
+Edit the files under subcomponents folder as per requirements, the subcomponents folder also contains a template
+if you need to add a section.
+
+The file "body.js" under components folder contains all the sections, edit the file if you need to add or remove 
+a section.
+
+For media files such as profile picture, or profile art, just move your desired file in public folder and rename it 
+accordingly.
+
+For files like project reports, move the files in the "files" folder in public folder and edit the projects section
+accordingly.
+
+
+# To get started:
+
+1) Fork the project
+
+2) clone the project onto your system
+
+3) run  "npm i"
+
+4) you're ready to go
+
+The profile art is taken from: 
+
+Photo by <a href="https://unsplash.com/@vklemen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Klemen Vrankar</a> on <a href="https://unsplash.com/wallpapers/nature/night-sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Icons from: https://react-icons.github.io/react-icons
+
+Good luck👍
+
+For any queries/suggestions contact: chatterjeedeep2018@gmail.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,7 +109,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Photo by <a href="https://unsplash.com/@vklemen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Klemen Vrankar</a> on <a href="https://unsplash.com/wallpapers/nature/night-sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Icons from: https://react-icons.github.io/react-icons
